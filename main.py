@@ -1,18 +1,18 @@
 
 def getInput():
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    uservalues = input()
+    numbers = list(map(int, uservalues.split()))
+    return numbers
 
 
 def makeReverse(numbers):
-    """
-    ########################################
-    Code Your Program here
-    ########################################
-    """
+    temp = 0
+    reverseList = []
+    
+    for i in range(1,len(numbers)):
+        reverseList = numbers[-i]
+
+    return reverseList
 
 
 def main():
